@@ -46,15 +46,14 @@ public class EnemyPatrol : MonoBehaviour
     }
 
 	// Update is called once per frame
-	[System.Obsolete]
 	void Update()
     {
         animator.SetFloat("rotation", transform.eulerAngles.z);
-        animator.SetFloat("move", rb.velocity.magnitude);
-        animator.SetFloat("rotationalV", Mathf.Abs(rb.angularVelocity));
         EnemyState state = stateManager.getState();
         if (state == EnemyState.PATROLLING)
         {
+            animator.SetFloat("move", 1);
+            animator.SetFloat("rotationalV", 1);
             dir = points[currentDestPoint].position - transform.position;
             float dirAngle = GetAngleFromVectorFloat(dir);
 
@@ -73,19 +72,24 @@ public class EnemyPatrol : MonoBehaviour
         }
         else if (state == EnemyState.DISCOVERED_PLAYER || state == EnemyState.CAUGHT_PLAYER)
         {
-
-			float dirAngle = GetAngleFromVectorFloat(stateManager.getPlayerPos().position - transform.position);
+            animator.SetFloat("move", 0);
+            animator.SetFloat("rotationalV", 0);
+            float dirAngle = GetAngleFromVectorFloat(stateManager.getPlayerPos().position - transform.position);
 
 			Quaternion rotDir = Quaternion.Euler(new Vector3(0, 0, dirAngle - transform.rotation.z - 90));
 			transform.rotation = Quaternion.Slerp(transform.rotation, rotDir, followSpeed * Time.deltaTime);
 		}
         else if (state == EnemyState.STUNNED)
         {
+            animator.SetFloat("move", -1);
+            animator.SetFloat("rotationalV", -1);
             //Debug.Log("Detected Stun State");
             enemyLight.intensity = Mathf.Lerp(enemyLight.intensity, 0.2f, 0.01f);
         }
         else if (state == EnemyState.STOPPED)
         {
+            animator.SetFloat("move", 0);
+            animator.SetFloat("rotationalV", 0);
             Debug.Log("Stopped");
         }
     }
