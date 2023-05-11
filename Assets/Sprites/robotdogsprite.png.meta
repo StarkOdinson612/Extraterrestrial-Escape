@@ -1,0 +1,697 @@
+fileFormatVersion: 2
+guid: 3af1b445d5ae8e448a1ae90c2a0f9d3c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: robotdogsprite_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 105
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 6, y: -6}
+        - {x: 10, y: -6}
+        - {x: 10, y: 1}
+        - {x: 8, y: 1}
+        - {x: 5, y: 3}
+        - {x: -3, y: 3}
+        - {x: -4, y: 4}
+        - {x: -4, y: 7}
+        - {x: -10, y: 7}
+        - {x: -10, y: 0}
+        - {x: -8, y: 0}
+        - {x: -7, y: -1}
+        - {x: -8, y: -2}
+        - {x: -8, y: -5}
+        - {x: -7, y: -7}
+        - {x: -2, y: -7}
+        - {x: -1, y: -6}
+        - {x: 0, y: -7}
+        - {x: 5, y: -7}
+      tessellationDetail: 1
+      bones: []
+      spriteID: da27a47929a9b3248abe428d0caeb742
+      internalID: -187391093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robotdogsprite_1
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 107
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 3, y: -6.5}
+        - {x: 7, y: -6.5}
+        - {x: 8, y: -4.5}
+        - {x: 10, y: -4.5}
+        - {x: 10, y: 2.5}
+        - {x: 8, y: 2.5}
+        - {x: 7, y: 3.5}
+        - {x: -2, y: 3.5}
+        - {x: -4, y: 5.5}
+        - {x: -4, y: 6.5}
+        - {x: -10, y: 6.5}
+        - {x: -10, y: -0.5}
+        - {x: -7, y: -0.5}
+        - {x: -10, y: -3.5}
+        - {x: -10, y: -5.5}
+        - {x: -7, y: -6.5}
+        - {x: -1, y: -6.5}
+        - {x: -2, y: -4.5}
+        - {x: 1, y: -4.5}
+      tessellationDetail: 1
+      bones: []
+      spriteID: 0c2a4eb52238ff244874e580d59f27e2
+      internalID: -1899866181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robotdogsprite_2
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 105
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 1.5, y: -5.5}
+        - {x: 2.5, y: -6.5}
+        - {x: 6.5, y: -6.5}
+        - {x: 7.5, y: -5.5}
+        - {x: 6.5, y: -2.5}
+        - {x: 10.5, y: -3.5}
+        - {x: 10.5, y: 3.5}
+        - {x: 9.5, y: 4.5}
+        - {x: -2.5, y: 3.5}
+        - {x: -4.5, y: 5.5}
+        - {x: -4.5, y: 6.5}
+        - {x: -10.5, y: 6.5}
+        - {x: -10.5, y: -0.5}
+        - {x: -6.5, y: -0.5}
+        - {x: -9.5, y: -3.5}
+        - {x: -9.5, y: -5.5}
+        - {x: -6.5, y: -6.5}
+        - {x: -0.5, y: -6.5}
+        - {x: -0.5, y: -4.5}
+        - {x: 1.5, y: -4.5}
+      tessellationDetail: 1
+      bones: []
+      spriteID: e7222b3abbb849546b6f85021c31728d
+      internalID: 872596098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robotdogsprite_3
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 105
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 6, y: -6}
+        - {x: 10, y: -6}
+        - {x: 10, y: 1}
+        - {x: 8, y: 1}
+        - {x: 5, y: 3}
+        - {x: -3, y: 3}
+        - {x: -4, y: 4}
+        - {x: -4, y: 7}
+        - {x: -10, y: 7}
+        - {x: -10, y: 0}
+        - {x: -8, y: 0}
+        - {x: -7, y: -1}
+        - {x: -8, y: -2}
+        - {x: -8, y: -5}
+        - {x: -7, y: -7}
+        - {x: -2, y: -7}
+        - {x: -1, y: -6}
+        - {x: 0, y: -7}
+        - {x: 5, y: -7}
+      tessellationDetail: 1
+      bones: []
+      spriteID: 1ec53a4850625f945ac8590e58fbfbc2
+      internalID: 1447565708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robotdogsprite_4
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 75
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 7, y: -6.5}
+        - {x: 8, y: -4.5}
+        - {x: 10, y: -4.5}
+        - {x: 10, y: 2.5}
+        - {x: 8, y: 2.5}
+        - {x: 7, y: 3.5}
+        - {x: -2, y: 3.5}
+        - {x: -4, y: 5.5}
+        - {x: -4, y: 6.5}
+        - {x: -10, y: 6.5}
+        - {x: -10, y: -0.5}
+        - {x: -7, y: -0.5}
+        - {x: -9, y: -4.5}
+        - {x: -9, y: -6.5}
+      tessellationDetail: 1
+      bones: []
+      spriteID: ad743876c33500e43a1df09554277855
+      internalID: -26905164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robotdogsprite_5
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 73
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5.5, y: -6.5}
+        - {x: 6.5, y: -5.5}
+        - {x: 6.5, y: -3.5}
+        - {x: 5.5, y: -2.5}
+        - {x: 10.5, y: -3.5}
+        - {x: 10.5, y: 3.5}
+        - {x: 9.5, y: 4.5}
+        - {x: -2.5, y: 3.5}
+        - {x: -4.5, y: 5.5}
+        - {x: -4.5, y: 6.5}
+        - {x: -10.5, y: 6.5}
+        - {x: -10.5, y: -0.5}
+        - {x: -6.5, y: -0.5}
+        - {x: -8.5, y: -4.5}
+        - {x: -8.5, y: -6.5}
+      tessellationDetail: 1
+      bones: []
+      spriteID: 8c1303f79eb6f804a8bbfffe7e733e97
+      internalID: -272540804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robotdogsprite_6
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 73
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 6, y: -6}
+        - {x: 10, y: -6}
+        - {x: 10, y: 1}
+        - {x: 8, y: 1}
+        - {x: 5, y: 3}
+        - {x: -3, y: 3}
+        - {x: -4, y: 4}
+        - {x: -4, y: 7}
+        - {x: -10, y: 7}
+        - {x: -10, y: 0}
+        - {x: -8, y: 0}
+        - {x: -7, y: -1}
+        - {x: -8, y: -2}
+        - {x: -8, y: -5}
+        - {x: -7, y: -7}
+        - {x: -2, y: -7}
+        - {x: -1, y: -6}
+        - {x: 0, y: -7}
+        - {x: 5, y: -7}
+      tessellationDetail: 1
+      bones: []
+      spriteID: 638d11830f4a8814d970eca4c3eb2c17
+      internalID: -1201426477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robotdogsprite_7
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 73
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 8, y: -5}
+        - {x: 8, y: -2}
+        - {x: 7, y: -1}
+        - {x: 8, y: 0}
+        - {x: 10, y: 0}
+        - {x: 10, y: 7}
+        - {x: 4, y: 7}
+        - {x: 4, y: 4}
+        - {x: 3, y: 3}
+        - {x: -5, y: 3}
+        - {x: -8, y: 1}
+        - {x: -10, y: 1}
+        - {x: -10, y: -6}
+        - {x: -5, y: -6}
+        - {x: -5, y: -7}
+        - {x: 0, y: -7}
+        - {x: 1, y: -6}
+        - {x: 2, y: -7}
+        - {x: 7, y: -7}
+      tessellationDetail: 1
+      bones: []
+      spriteID: 0fe40cf5c7dc1c64b8cfab7853369056
+      internalID: 2121843166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robotdogsprite_8
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 43
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 1, y: -6.5}
+        - {x: 7, y: -6.5}
+        - {x: 10, y: -5.5}
+        - {x: 10, y: -3.5}
+        - {x: 7, y: -0.5}
+        - {x: 10, y: -0.5}
+        - {x: 10, y: 6.5}
+        - {x: 4, y: 6.5}
+        - {x: 4, y: 5.5}
+        - {x: 2, y: 3.5}
+        - {x: -7, y: 3.5}
+        - {x: -8, y: 2.5}
+        - {x: -10, y: 2.5}
+        - {x: -10, y: -4.5}
+        - {x: -8, y: -4.5}
+        - {x: -8, y: -5.5}
+        - {x: -7, y: -6.5}
+        - {x: -3, y: -6.5}
+        - {x: -1, y: -4.5}
+        - {x: 2, y: -4.5}
+      tessellationDetail: 1
+      bones: []
+      spriteID: a2bace042c746f6448b3124e1ab2f038
+      internalID: -1231032011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robotdogsprite_9
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 41
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0.5, y: -6.5}
+        - {x: 6.5, y: -6.5}
+        - {x: 9.5, y: -5.5}
+        - {x: 9.5, y: -3.5}
+        - {x: 6.5, y: -0.5}
+        - {x: 10.5, y: -0.5}
+        - {x: 10.5, y: 6.5}
+        - {x: 4.5, y: 6.5}
+        - {x: 4.5, y: 5.5}
+        - {x: 2.5, y: 3.5}
+        - {x: -3.5, y: 3.5}
+        - {x: -4.5, y: 4.5}
+        - {x: -9.5, y: 4.5}
+        - {x: -10.5, y: 3.5}
+        - {x: -10.5, y: -3.5}
+        - {x: -6.5, y: -2.5}
+        - {x: -7.5, y: -5.5}
+        - {x: -6.5, y: -6.5}
+        - {x: -1.5, y: -6.5}
+        - {x: -0.5, y: -4.5}
+        - {x: 0.5, y: -4.5}
+      tessellationDetail: 1
+      bones: []
+      spriteID: 511995382ef1b234286a5e335724a03a
+      internalID: -1823666652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robotdogsprite_10
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 41
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 8, y: -5}
+        - {x: 8, y: -2}
+        - {x: 7, y: -1}
+        - {x: 8, y: 0}
+        - {x: 10, y: 0}
+        - {x: 10, y: 7}
+        - {x: 4, y: 7}
+        - {x: 4, y: 4}
+        - {x: 3, y: 3}
+        - {x: -5, y: 3}
+        - {x: -8, y: 1}
+        - {x: -10, y: 1}
+        - {x: -10, y: -6}
+        - {x: -5, y: -6}
+        - {x: -5, y: -7}
+        - {x: 0, y: -7}
+        - {x: 1, y: -6}
+        - {x: 2, y: -7}
+        - {x: 7, y: -7}
+      tessellationDetail: 1
+      bones: []
+      spriteID: 67fbaddeea0c05d48b78a2ee9bc90c5f
+      internalID: 51461681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robotdogsprite_11
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 43
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 9, y: -6.5}
+        - {x: 9, y: -4.5}
+        - {x: 7, y: -0.5}
+        - {x: 10, y: -0.5}
+        - {x: 10, y: 6.5}
+        - {x: 4, y: 6.5}
+        - {x: 4, y: 5.5}
+        - {x: 2, y: 3.5}
+        - {x: -7, y: 3.5}
+        - {x: -8, y: 2.5}
+        - {x: -10, y: 2.5}
+        - {x: -10, y: -4.5}
+        - {x: -7, y: -4.5}
+        - {x: -6, y: -6.5}
+      tessellationDetail: 1
+      bones: []
+      spriteID: 0c79d083adc13ae4cbd8fd8326a52971
+      internalID: 354480244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robotdogsprite_12
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 9
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 8.5, y: -6.5}
+        - {x: 8.5, y: -4.5}
+        - {x: 6.5, y: -0.5}
+        - {x: 10.5, y: -0.5}
+        - {x: 10.5, y: 6.5}
+        - {x: 4.5, y: 6.5}
+        - {x: 4.5, y: 5.5}
+        - {x: 2.5, y: 3.5}
+        - {x: -3.5, y: 3.5}
+        - {x: -4.5, y: 4.5}
+        - {x: -9.5, y: 4.5}
+        - {x: -10.5, y: 3.5}
+        - {x: -10.5, y: -3.5}
+        - {x: -5.5, y: -2.5}
+        - {x: -6.5, y: -3.5}
+        - {x: -6.5, y: -5.5}
+        - {x: -5.5, y: -6.5}
+      tessellationDetail: 1
+      bones: []
+      spriteID: cc5067be645b9444da7016e9daba49ba
+      internalID: 1825660382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robotdogsprite_13
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 9
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 8, y: -5}
+        - {x: 8, y: -2}
+        - {x: 7, y: -1}
+        - {x: 8, y: 0}
+        - {x: 10, y: 0}
+        - {x: 10, y: 7}
+        - {x: 4, y: 7}
+        - {x: 4, y: 4}
+        - {x: 3, y: 3}
+        - {x: -5, y: 3}
+        - {x: -8, y: 1}
+        - {x: -10, y: 1}
+        - {x: -10, y: -6}
+        - {x: -5, y: -6}
+        - {x: -5, y: -7}
+        - {x: 0, y: -7}
+        - {x: 1, y: -6}
+        - {x: 2, y: -7}
+        - {x: 7, y: -7}
+      tessellationDetail: 1
+      bones: []
+      spriteID: 416bd8a39b8b0454fa51f56e21c8405a
+      internalID: -700359380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      robotdogsprite_3: 1447565708
+      robotdogsprite_11: 354480244
+      robotdogsprite_0: -187391093
+      robotdogsprite_6: -1201426477
+      robotdogsprite_2: 872596098
+      robotdogsprite_10: 51461681
+      robotdogsprite_9: -1823666652
+      robotdogsprite_4: -26905164
+      robotdogsprite_12: 1825660382
+      robotdogsprite_5: -272540804
+      robotdogsprite_1: -1899866181
+      robotdogsprite_7: 2121843166
+      robotdogsprite_13: -700359380
+      robotdogsprite_8: -1231032011
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
