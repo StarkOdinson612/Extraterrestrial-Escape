@@ -1,16 +1,12 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 guid: 3272221b906035545a85b7d5d7ad54b5
-=======
-guid: b509147c4000c5041a1bb6ee989cae5d
->>>>>>> master
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 0
+    enableMipMap: 1
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -37,20 +33,16 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 1
-    wrapV: 1
-    wrapW: 1
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-<<<<<<< HEAD
   spriteMode: 2
-=======
-  spriteMode: 1
->>>>>>> master
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -59,7 +51,7 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 1
+  alphaIsTransparency: 0
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
@@ -70,15 +62,15 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 0
-  cookieLightType: 0
+  applyGammaDecoding: 1
+  cookieLightType: 2
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -90,7 +82,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -102,7 +94,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -114,7 +106,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -123,7 +115,6 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-<<<<<<< HEAD
     sprites:
     - serializedVersion: 2
       name: enemyspritesheettase_1
@@ -134,14 +125,14 @@ TextureImporter:
         width: 30
         height: 30
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c331fe353ef8024f9216dea6000a243
-      internalID: 1526538924
+      spriteID: f6a5e7ded9a06b14f8f1b9fd25e7bfad
+      internalID: 652996295
       vertices: []
       indices: 
       edges: []
@@ -155,14 +146,14 @@ TextureImporter:
         width: 30
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ce570cd83e4dc445bfe2177620a71a3
-      internalID: -1007645325
+      spriteID: e6f3eaf1e9c2d094d9c0f5cedae375e4
+      internalID: 1757954652
       vertices: []
       indices: 
       edges: []
@@ -176,14 +167,14 @@ TextureImporter:
         width: 30
         height: 31
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a5ff8aa024dc415458ab0b70a2ce288e
-      internalID: 540920763
+      spriteID: 8c2146e42d7ab614ea33bae348180da9
+      internalID: 1721906664
       vertices: []
       indices: 
       edges: []
@@ -197,14 +188,14 @@ TextureImporter:
         width: 30
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c80f74ad7ae290540bb79cc3f4e15508
-      internalID: -1361007668
+      spriteID: 598fded85ffd5054bbd4eb8106b66c42
+      internalID: 84987779
       vertices: []
       indices: 
       edges: []
@@ -218,14 +209,14 @@ TextureImporter:
         width: 31
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 54ab81cc8fa7ba84296874c39195f97f
-      internalID: -1175649326
+      spriteID: 4ac2e14c2ba13274da7631da7c5ce133
+      internalID: 2055163488
       vertices: []
       indices: 
       edges: []
@@ -239,43 +230,36 @@ TextureImporter:
         width: 30
         height: 31
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3697d5894dd72f643b149ccdd7fbf4f8
-      internalID: 1081297737
+      spriteID: a0d8ae2db2b61cc4aa2b804ac8f7443b
+      internalID: 255300799
       vertices: []
       indices: 
       edges: []
       weights: []
-=======
-    sprites: []
->>>>>>> master
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 950c57ddbf2b6be43921b8ab0f235306
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-<<<<<<< HEAD
     nameFileIdTable:
-      enemyspritesheettase_3: 540920763
-      enemyspritesheettase_5: -1175649326
-      enemyspritesheettase_1: 1526538924
-      enemyspritesheettase_4: -1361007668
-      enemyspritesheettase_0: 944199898
-      enemyspritesheettase_6: 1081297737
-      enemyspritesheettase_2: -1007645325
-=======
-    nameFileIdTable: {}
->>>>>>> master
+      enemyspritesheettase_3: 1721906664
+      enemyspritesheettase_5: 2055163488
+      enemyspritesheettase_1: 652996295
+      enemyspritesheettase_4: 84987779
+      enemyspritesheettase_0: 1695570739
+      enemyspritesheettase_6: 255300799
+      enemyspritesheettase_2: 1757954652
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

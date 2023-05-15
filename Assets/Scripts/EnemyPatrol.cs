@@ -48,6 +48,7 @@ public class EnemyPatrol : MonoBehaviour
 	// Update is called once per frame
 	void Update()
     {
+        animator.SetBool("isTased", false);
         animator.SetFloat("rotation", transform.eulerAngles.z);
         EnemyState state = stateManager.getState();
         if (state == EnemyState.PATROLLING)
@@ -81,6 +82,7 @@ public class EnemyPatrol : MonoBehaviour
 		}
         else if (state == EnemyState.STUNNED)
         {
+            animator.SetBool("isTased", true);
             animator.SetFloat("move", -1);
             animator.SetFloat("rotationalV", -1);
             //Debug.Log("Detected Stun State");

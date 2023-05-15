@@ -45,6 +45,7 @@ public class PlayerShoot : MonoBehaviour
 			shots--;
 			gameManager.setAmmoFill(shots);
 
+			
 			List<RaycastHit2D> hits = new List<RaycastHit2D>();
 			for (float angle = -shootAngle; angle <= shootAngle; angle += 8)
 			{
@@ -52,7 +53,6 @@ public class PlayerShoot : MonoBehaviour
 
 				hits.Add(Physics2D.Raycast(transform.position, childTransform.rotation * vec.normalized, shootDist, enemyMask));
 			}
-
 
 			hits = hits.Where(hit => hit.collider != null && hit.collider.gameObject.CompareTag("Enemy")).ToList();
 
