@@ -22,7 +22,7 @@ public class EnemyStateManager : MonoBehaviour
 
 		if (state == EnemyState.PATROLLING)
 		{
-			GetComponent<EnemyPatrol>().setEnemyLight(1);
+			GetComponent<EnemyPatrol>().setEnemyLight(3);
 
 		}
 		else if (state == EnemyState.CAUGHT_PLAYER)

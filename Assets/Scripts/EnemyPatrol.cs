@@ -137,16 +137,16 @@ public class EnemyPatrol : MonoBehaviour
         yield return new WaitForSecondsRealtime(stunDuration);
 		enemyLight.intensity = 0.5f;
 		yield return new WaitForSecondsRealtime(0.2f);
-		enemyLight.intensity = 0.75f;
+		enemyLight.intensity = 1.75f;
 		yield return new WaitForSecondsRealtime(0.2f);
-		enemyLight.intensity = 0.5f;
+		enemyLight.intensity = 1.5f;
 		yield return new WaitForSecondsRealtime(0.2f);
 		enemyLight.intensity = 0.25f;
         yield return new WaitForSecondsRealtime(0.2f);
-        enemyLight.intensity = 0.7f;
+        enemyLight.intensity = 1.7f;
         yield return new WaitForSecondsRealtime(0.4f);
 		stateManager.setState(EnemyState.PATROLLING);
-        enemyLight.intensity = 1;
+        enemyLight.intensity = 3;
     }
 
 	public static float GetAngleFromVectorFloat(Vector3 dir)
