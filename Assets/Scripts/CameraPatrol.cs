@@ -39,6 +39,7 @@ public class CameraPatrol : MonoBehaviour
 		CameraState state = stateManager.getState();
         if (state == CameraState.PATROLLING)
         {
+            GetComponent<CameraVision>().setEnemyLight(3);
             if (isRotating)
             {
 

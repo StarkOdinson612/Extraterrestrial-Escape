@@ -4,6 +4,7 @@ using System.Linq;
 using Unity.Burst.CompilerServices;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Rendering.Universal;
 
 public class CameraVision : MonoBehaviour
 {
@@ -13,7 +14,7 @@ public class CameraVision : MonoBehaviour
 
     public float hangTime = 3f;
 
-	public UnityEngine.Rendering.Universal.Light2D enemyLight;
+	public Light2D enemyLight;
 
     private GameManager gameManager;
 
@@ -66,7 +67,7 @@ public class CameraVision : MonoBehaviour
             Debug.Log(viewCounter / 60);
 
 			if (state != CameraState.CAUGHT_PLAYER) { 
-                setEnemyLight(1 + 0.5f * (viewCounter / 180.0f));
+                setEnemyLight(3 + 0.5f * (viewCounter / 180.0f));
                 gameManager.setDangerFill(viewCounter / 180f);
             }
 
