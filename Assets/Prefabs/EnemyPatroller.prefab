@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 52497966004369436}
   - component: {fileID: 52497966004369438}
   - component: {fileID: 52497966004369435}
+  - component: {fileID: 7621310035481873012}
   m_Layer: 7
   m_Name: Renderer
   m_TagString: Enemy
@@ -118,6 +119,51 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4b008541ba32834baffd49c452d3b6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &7621310035481873012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 52497966004369439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7db70e0ea77f5ac47a8f4565a9406397, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShadowGroup: 0
+  m_ComponentVersion: 1
+  m_HasRenderer: 0
+  m_UseRendererSilhouette: 1
+  m_CastsShadows: 1
+  m_SelfShadows: 0
+  m_ApplyToSortingLayers: 00000000f528209ca3fe31f19301bde3
+  m_ShapePath:
+  - {x: -0.015271604, y: -0.10572422, z: 0}
+  - {x: -0.06242162, y: -0.10499645, z: 0}
+  - {x: -0.06645352, y: -0.080082044, z: 0}
+  - {x: -0.09221047, y: -0.07637657, z: 0}
+  - {x: -0.09151292, y: -0.028713033, z: 0}
+  - {x: -0.06454289, y: -0.009505294, z: 0}
+  - {x: -0.084805846, y: 0.004897855, z: 0}
+  - {x: -0.08495313, y: 0.0549284, z: 0}
+  - {x: -0.062347412, y: 0.086868204, z: 0}
+  - {x: -0.018601656, y: 0.10822014, z: 0}
+  - {x: 0.017934084, y: 0.1087519, z: 0}
+  - {x: 0.0830853, y: 0.066708334, z: 0}
+  - {x: 0.083587766, y: 0.006999582, z: 0}
+  - {x: 0.07774496, y: -0.0007134229, z: 0}
+  - {x: 0.07559812, y: -0.010754004, z: 0}
+  - {x: 0.09260917, y: -0.05652655, z: 0}
+  - {x: 0.0779323, y: -0.06386498, z: 0}
+  - {x: 0.06323385, y: -0.033880115, z: 0}
+  - {x: 0.06257838, y: -0.107143, z: 0}
+  - {x: 0.025413334, y: -0.10565778, z: 0}
+  - {x: 0.010926425, y: -0.05774041, z: 0}
+  - {x: -0.0025280118, y: -0.06148214, z: 0}
+  m_ShapePathHash: 1283260961
+  m_Mesh: {fileID: 0}
+  m_InstanceId: -1508
 --- !u!1 &52497966544552282
 GameObject:
   m_ObjectHideFlags: 0
@@ -132,9 +178,7 @@ GameObject:
   - component: {fileID: 52497966544552258}
   - component: {fileID: 52497966544552260}
   - component: {fileID: 52497966544552257}
-  - component: {fileID: 52497966544552256}
   - component: {fileID: 52497966544552271}
-  - component: {fileID: 52497966544552270}
   m_Layer: 7
   m_Name: EnemyPatroller
   m_TagString: Enemy
@@ -301,38 +345,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &52497966544552256
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 52497966544552282}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7db70e0ea77f5ac47a8f4565a9406397, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_ShadowGroup: 0
-  m_ComponentVersion: 1
-  m_HasRenderer: 0
-  m_UseRendererSilhouette: 1
-  m_CastsShadows: 1
-  m_SelfShadows: 0
-  m_ApplyToSortingLayers: 00000000f528209ca3fe31f19301bde3
-  m_ShapePath:
-  - {x: -0.0625, y: -0.0625, z: 0}
-  - {x: -0.060276926, y: -0.0023657605, z: 0}
-  - {x: -0.07946551, y: 0.004230313, z: 0}
-  - {x: -0.0722698, y: 0.05759857, z: 0}
-  - {x: -0.059677303, y: 0.07618753, z: 0}
-  - {x: -0.01392889, y: 0.10087717, z: 0}
-  - {x: 0.013928831, y: 0.10207648, z: 0}
-  - {x: 0.074043214, y: 0.05699893, z: 0}
-  - {x: 0.0625, y: -0.0625, z: 0}
-  m_ShapePathHash: 2098605291
-  m_Mesh: {fileID: 0}
-  m_InstanceId: 29284
 --- !u!60 &52497966544552271
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -340,7 +352,7 @@ PolygonCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 52497966544552282}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -381,22 +393,6 @@ PolygonCollider2D:
       - {x: 0.09595764, y: -0.06313869}
       - {x: 0.0999977, y: -0.038480997}
       - {x: 0.06696564, y: -0.010525122}
---- !u!58 &52497966544552270
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 52497966544552282}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.09
 --- !u!1 &52497967165941066
 GameObject:
   m_ObjectHideFlags: 0
