@@ -63,7 +63,7 @@ public class EnemyVision : MonoBehaviour
             // Debug.Log(viewCounter / 60);
 
             if (state != EnemyState.CAUGHT_PLAYER) { 
-                patrolScript.setEnemyLight(1 + 0.5f * (viewCounter / 120.0f));
+                patrolScript.setEnemyLight(3 + 0.5f * (viewCounter / 120.0f));
                 gameManager.setDangerFill(viewCounter / 120f);
             }
 
