@@ -26,6 +26,7 @@ public class DoorScript : MonoBehaviour
 
 	private void OnTriggerEnter2D(Collider2D collision)
 	{
+		if (!collision.gameObject.CompareTag("Player")) return;
 		Debug.Log("Collision enter");
 		animator.SetTrigger("Open");
 		source.Play();
@@ -33,6 +34,7 @@ public class DoorScript : MonoBehaviour
 
 	private void OnTriggerExit2D(Collider2D collision)
 	{
+		if (!collision.gameObject.CompareTag("Player")) return;
 		Debug.Log("Collision exit");
 		animator.SetTrigger("Closed");
 		source.Play();

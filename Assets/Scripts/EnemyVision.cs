@@ -10,7 +10,7 @@ public class EnemyVision : MonoBehaviour
     private EnemyStateManager stateManager;
     private Collider2D thisCollider;
 
-    private float sightDist = 6.8f;
+    public float sightDist = 6.8f;
 
     private float hangTime = 2f;
 

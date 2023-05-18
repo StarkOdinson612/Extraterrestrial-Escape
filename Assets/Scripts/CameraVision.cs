@@ -10,7 +10,7 @@ public class CameraVision : MonoBehaviour
 {
     private CameraStateManager stateManager;
 
-    private float sightDist = 6.8f;
+    private float sightDist = 11f;
 
     public float hangTime = 3f;
 
@@ -51,7 +51,7 @@ public class CameraVision : MonoBehaviour
             Vector3 vec = Quaternion.AngleAxis(angle, Vector3.forward) * Vector3.right;
             Debug.DrawRay(origin.position, transform.localRotation * vec.normalized * sightDist, Color.cyan, 0.01f);
 
-            hits.Add(Physics2D.Raycast(origin.position, transform.localRotation * vec.normalized, 7, playerMask));
+            hits.Add(Physics2D.Raycast(origin.position, transform.localRotation * vec.normalized * sightDist * 2, 7, playerMask));
         }
 
   

@@ -22,5 +22,7 @@ public class LoadingScreenManager : MonoBehaviour
 
     public void PlayGame() { SceneManager.LoadScene("SampleScene"); }
 
-    public void ControlScreen() { Debug.Log("Control Screen Loading"); }
+    public void ControlScreen() { controlScreen.SetActive(true); }
+
+    public void CloseControlScreen() {  controlScreen.SetActive(false); }  
 }

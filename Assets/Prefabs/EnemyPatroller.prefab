@@ -133,7 +133,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_ShadowGroup: 0
   m_ComponentVersion: 1
-  m_HasRenderer: 0
+  m_HasRenderer: 1
   m_UseRendererSilhouette: 1
   m_CastsShadows: 1
   m_SelfShadows: 0
@@ -163,7 +163,7 @@ MonoBehaviour:
   - {x: -0.0025280118, y: -0.06148214, z: 0}
   m_ShapePathHash: 1283260961
   m_Mesh: {fileID: 0}
-  m_InstanceId: -1508
+  m_InstanceId: -671040
 --- !u!1 &52497966544552282
 GameObject:
   m_ObjectHideFlags: 0
@@ -235,7 +235,7 @@ MonoBehaviour:
   enemyLight: {fileID: 52497967165941064}
   dir: {x: 0, y: 0, z: 0}
   timeDelay: 6.19
-  moveSpeed: 1.5
+  moveSpeed: 3
   stunDuration: 7
   followSpeed: 1
 --- !u!114 &52497966544552258
@@ -250,6 +250,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db171053f81a27c439a3a981a1f9d8f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sightDist: 8.5
   ang: 20
   playerMask:
     serializedVersion: 2
@@ -336,7 +337,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 68.9
+  m_Mass: 944.32
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
@@ -442,7 +443,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 0, b: 0.04480028, a: 1}
-  m_Intensity: 1
+  m_Intensity: 3
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -492,8 +493,8 @@ MonoBehaviour:
     m_Extent: {x: 0.9985302, y: 0.99853027, z: 0}
   m_PointLightInnerAngle: 37.50003
   m_PointLightOuterAngle: 45.00003
-  m_PointLightInnerRadius: 6.7997336
-  m_PointLightOuterRadius: 7.0312405
+  m_PointLightInnerRadius: 7.76
+  m_PointLightOuterRadius: 8.79
   m_ShapeLightParametricSides: 5
   m_ShapeLightParametricAngleOffset: 0
   m_ShapeLightParametricRadius: 1
