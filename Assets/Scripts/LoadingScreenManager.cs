@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LoadingScreenManager : MonoBehaviour
 {
@@ -19,7 +20,7 @@ public class LoadingScreenManager : MonoBehaviour
 
     public void ExitGame() {  Application.Quit(); }
 
-    public void PlayGame() { Debug.Log("Playing"); }
+    public void PlayGame() { SceneManager.LoadScene("SampleScene"); }
 
     public void ControlScreen() { Debug.Log("Control Screen Loading"); }
 }

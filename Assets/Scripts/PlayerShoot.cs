@@ -9,6 +9,9 @@ public class PlayerShoot : MonoBehaviour
     private LayerMask enemyMask;
 	public Transform childTransform;
 
+	public AudioSource zapPlayer;
+	public AudioSource noAmmo;
+
 	public GameObject lightningPrefab;
 
 	public float shootAngle;
@@ -40,9 +43,10 @@ public class PlayerShoot : MonoBehaviour
 
 		if (Input.GetMouseButtonDown(0))
         {
-			if (shots == 0) { return; }
+			if (shots == 0) { noAmmo.Play();  return; }
 
 			shots--;
+			zapPlayer.Play();
 			gameManager.setAmmoFill(shots);
 
 			

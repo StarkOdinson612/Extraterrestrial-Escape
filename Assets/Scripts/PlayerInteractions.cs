@@ -11,6 +11,8 @@ public class PlayerInteractions : MonoBehaviour
 
     public GameObject keyCardUIParent;
 
+    
+
     // Start is called before the first frame update
     void Start()
     {
@@ -21,7 +23,7 @@ public class PlayerInteractions : MonoBehaviour
     void Update()
     {
 		if (Time.timeScale == 0) { return; }
-		if (keyCardUIParent.active)
+		if (keyCardUIParent.activeInHierarchy)
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
@@ -48,6 +50,8 @@ public class PlayerInteractions : MonoBehaviour
             keyCardUIParent.SetActive(false);
         }
     }
+
+    public bool getHasKeyCard() {  return hasKeyCard; }
 
     IEnumerator waitForTimeCustom(float seconds)
     {

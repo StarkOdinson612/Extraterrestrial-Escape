@@ -14,6 +14,7 @@ public class GameManager : MonoBehaviour
 
     public GameObject pauseParent;
     public GameObject loseScreen;
+    public GameObject winScreen;
 
     public Image danger;
     public Image ammo;
@@ -31,7 +32,7 @@ public class GameManager : MonoBehaviour
 
         Time.timeScale = isOver ? 0 : isPaused ? 0 : 1;
 
-        if (Input.GetKeyUp(KeyCode.T) && !isOver)
+        if (Input.GetKeyUp(KeyCode.Escape) && !isOver)
         {
             TogglePause();
         }
@@ -41,6 +42,12 @@ public class GameManager : MonoBehaviour
     {
         isOver = true;
         loseScreen.SetActive(true);
+    }
+
+    public void GameWin()
+    {
+        isOver = true;
+        winScreen.SetActive(true);
     }
 
     private void TogglePause()
